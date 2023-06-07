@@ -1,13 +1,13 @@
 
-=== Polylang Dynamic Sitemap Generator ===
-
-Tags: sitemap, SEO, XML, multilingual, post types, Polylang
-Requires at least: 5.0
-Tested up to: Wordpress 6.2
-Stable tag: 1.0.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Generate dynamic sitemaps for all active languages and post types using Polylang in WordPress.
+=== Polylang Dynamic Sitemap Generator ===  
+  
+Tags: sitemap, SEO, XML, multilingual, post types, Polylang   
+Requires at least: 5.0  
+Tested up to: Wordpress 6.2  
+Stable tag: 1.0.0  
+License: GPLv2 or later  
+License URI: http://www.gnu.org/licenses/gpl-2.0.html  
+Generate dynamic sitemaps for all active languages and post types using Polylang in WordPress.  
 
 == Description ==
 
