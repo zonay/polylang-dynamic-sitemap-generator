@@ -1,51 +1,58 @@
 
-=== Polylang Dynamic Sitemap Generator ===  
-  
-Tags: sitemap, SEO, XML, multilingual, post types, Polylang   
-Requires at least: 5.0  
-Tested up to: Wordpress 6.2  
-Stable tag: 1.0.0  
-License: GPLv2 or later  
-License URI: http://www.gnu.org/licenses/gpl-2.0.html  
-Generate dynamic sitemaps for all active languages and post types using Polylang in WordPress.  
+# Polylang Dynamic Sitemap Generator
 
-== Description ==
+**Tags**: sitemap, SEO, XML, multilingual, post types, Polylang  
+**Requires at least**: WordPress 5.0  
+**Tested up to**: WordPress 6.2  
+**Stable tag**: 1.0.0  
+**License**: GPLv2 or later  
+**License URI**: [http://www.gnu.org/licenses/gpl-2.0.html](http://www.gnu.org/licenses/gpl-2.0.html)  
 
-Polylang Dynamic Sitemap Generator is a WordPress plugin that automatically generates sitemaps for all active languages and post types in your Polylang-powered multilingual website. It ensures that your website's sitemap stays up to date with the latest content and reflects the structure of your multilingual website.
+Generate separate dynamic sitemaps for all active languages and post types for Wordpress sites with Polylang.
 
-The plugin utilizes the Polylang plugin to determine the active languages. It fetches all published posts and pages for each language and generates separate sitemap files for each language. Additionally, it creates a main sitemap.xml file that lists the language-based sitemaps.
+## Description
 
-The sitemaps follow the XML Sitemap protocol and include the URL, last modification date, and change frequency for each post. The generated sitemaps can be submitted to search engines to improve the indexing of your website.
+Polylang Dynamic Sitemap Generator is a powerful WordPress plugin that automatically generates SEO-friendly sitemaps for all active languages and post types in your multilingual website powered by Polylang. With this plugin, you can ensure that your website's sitemap stays up to date with the latest content and accurately reflects the structure of your multilingual website.
 
-== Features ==
+The plugin seamlessly integrates with Polylang to determine the active languages on your website. It retrieves all published posts and pages for each language and generates separate sitemap files tailored to each language. Additionally, it creates a main `sitemap.xml` file that serves as the index for the language-based sitemaps.
+
+The generated sitemaps follow the XML Sitemap protocol, including the essential elements such as the URL, last modification date, and change frequency for each post. These sitemaps can be easily submitted to search engines, aiding in the efficient indexing of your website and improving its search engine optimization (SEO) performance.
+
+## Features
 
 - Generates dynamic sitemaps for all active languages and post types in Polylang.
 - Supports multilingual websites using the Polylang plugin.
 - Includes the URL, last modification date, and change frequency for each post.
 - Automatically updates the sitemaps when a post or page is published or updated.
-- Generates a main sitemap.xml file that lists the language-based sitemaps.
+- Generates a main `sitemap.xml` file that indexes the language-based sitemaps.
 
-== Installation ==
+## Installation
 
-1. Upload the `polylang-dynamic-sitemap-generator` folder to the `/wp-content/plugins/` directory.
+1. Upload the `polylang-dynamic-sitemap-generator` folder to the `/wp-content/plugins/` directory of your WordPress installation.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. That's it! The sitemaps will be automatically generated when a post or page is published or updated.
+3. That's it! The sitemaps will be automatically generated whenever a post or page is published or updated.
 
-== Frequently Asked Questions ==
+## Frequently Asked Questions
 
-= How do I submit the sitemap to search engines? =
+**Q: How do I submit the sitemap to search engines?**
 
-Once the sitemap files are generated, you can submit the main `sitemap.xml` file to search engines through their respective webmaster tools. Each search engine has its own process for submitting sitemaps. Refer to their documentation or support resources for detailed instructions.
+Once the sitemap files are generated, you can submit the main `sitemap.xml` file to search engines through their respective webmaster tools. Each search engine has its own process for submitting sitemaps. For detailed instructions, refer to the documentation or support resources provided by the search engines.
 
-= Can I customize the sitemap output? =
+**Q: Can I customize the sitemap output?**
 
-The plugin generates the sitemap output based on the XML Sitemap protocol. If you require customizations or additional functionality, you can modify the plugin code or consider using a dedicated XML sitemap plugin that provides more flexibility.
+The plugin generates the sitemap output based on the XML Sitemap protocol, ensuring compatibility with search engines. If you require customizations or additional functionality, you have the flexibility to modify the plugin code or explore dedicated XML sitemap plugins that offer more advanced customization options.
 
-== License ==
+## Sample Output File Names
 
-This plugin is licensed under the GPL v2 or later.
+- English sitemap: `sitemap_en.xml`
+- French sitemap: `sitemap_fr.xml`
+- German sitemap: `sitemap_de.xml`
+- Main sitemap: `sitemap.xml`
 
+## License
 
-== Support ==
+This plugin is licensed under the GNU General Public License v2 or later.
 
-For support or inquiries please use wordpress.org support forums or contact me at [zonay@msn.com](mailto:zonay@msn.com)
+## Support
+
+For support or inquiries, please use the WordPress.org support forums or contact me at [zonay@msn.com](mailto:zonay@msn.com).
