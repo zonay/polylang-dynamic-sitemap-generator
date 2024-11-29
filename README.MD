@@ -55,4 +55,4 @@ This plugin is licensed under the GNU General Public License v2 or later.
 
 ## Support
 
-For support or inquiries, please use the WordPress.org support forums or contact me at [zonay@msn.com](mailto:zonay@msn.com).
+For support or inquiries, please use the WordPress.org support forums.
